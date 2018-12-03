@@ -1,0 +1,50 @@
+/*
+*Lexi Hall
+*December 3, 2018
+*Girl Develop It Project
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+/* First, is the background color for the entire web page. */
+
+body { 
+    background-color: #FFE6EE;
+} 
+
+/* Next, is the font-family that determines the font for the main. */
+
+main {
+    font-family: "Arial", "Courier New", serif;
+}
+
+/* The h1 and h2 determine the fonts for this part of the web page. */
+
+h1{
+    font-family: cursive, "Lucinda", "Courier New"; 
+}
+
+h2{
+    font-family: cursive, "Lucinda", "Courier New"; 
+}
+
+a:hover {
+    color: mediumorchid; 
+    font-size: 120%; 
+}
+
+header {
+    background-color: #ff6666;
+    text-align: center;
+}
+
+/* Lastly is the css to determine the sizes of the images. */ 
+
+#girls {width: 300px; height: 200px; float: right;}
+#friend {width: 300px; height: 200px; float: right;}
